@@ -48,7 +48,7 @@
 		qcom,mdss-dsi-panel-hdr-enabled;
 		qcom,mdss-dsi-panel-hdr-color-primaries = <14500 15500 32000
 			17000 15500 30000 8000 3000>;
-		qcom,mdss-dsi-panel-peak-brightness = <4200000>;
+		qcom,mdss-dsi-panel-peak-brightness = <4800000>;
 		qcom,mdss-dsi-panel-blackness-level = <3230>;
 		/* IRQF_ONESHOT | IRQF_TRIGGER_RISING */
 		qcom,esd-err-irq-gpio = <&tlmm 32 0x2001>;
@@ -59,13 +59,13 @@
 		/* DFPS */
 		qcom,mdss-dsi-pan-enable-dynamic-fps;
 		qcom,mdss-dsi-pan-fps-update = "dfps_immediate_porch_mode_vfp";
-		qcom,dsi-supported-dfps-list = <120 60>;
+		qcom,dsi-supported-dfps-list = <120 90 60>;
 
 		qcom,mdss-dsi-panel-dc-threshold = <488>;
 		qcom,mdss-dsi-panel-k6-dc-flag;
 
 		/* AOD brightness setting */
-		mi,mdss-dsi-doze-hbm-brightness-value = <272>;
+		mi,mdss-dsi-doze-hbm-brightness-value = <282>;
 		mi,mdss-dsi-doze-lbm-brightness-value = <22>;
 		qcom,mdss-dsi-oled-panel-video-mode;
 
