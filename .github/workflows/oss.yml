@@ -21,7 +21,7 @@ jobs:
           libghc-libyaml-dev libyaml-dev glibc-source \
     - name: ready compile...
       run: |
-          curl https://raw.githubusercontent.com/Stella-0/Some_stuff/main/nonrx/oss.sh > oss.sh
+          curl https://raw.githubusercontent.com/Stella-07/Some_stuff/main/nonrx/oss.sh > oss.sh
           chmod +x oss.sh
           bash oss.sh
       shell: bash
